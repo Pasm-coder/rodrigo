@@ -1,0 +1,93 @@
+[
+    {
+      "id": "1",
+      "name": "Correa de Hojales <br>[Negro]",
+      "image": "assets/images/Correa 1.png",
+      "description":"",
+      "type": "",
+      "color": "",
+      "price":0,
+      "discount": 0,
+      "quantity": 0
+    },
+    {
+      "id": "2",
+      "name": "Correa de Hojales <br> [Plata]",
+      "image": "assets/images/Correa 3.png",
+      "description":"",
+      "type": "",
+      "color": "",
+      "price":160000,
+      "discount": 0,
+      "quantity": 0
+    },
+    {
+      "id": "3",
+      "name": "Cinturón de Lujo <br> [Plata]",
+      "image": "assets/images/Correa Lujo 3.png",
+      "description":"",
+      "type": "",
+      "color": "",
+      "price":50000,
+      "discount": 0,
+      "quantity": 0
+    },
+    {
+      "id": "4",
+      "name": "Bolso MALLE <br> [Negro]",
+      "image": "assets/images/Bolso malle plata 2.png",
+      "description":"",
+      "type": "",
+      "color": "",
+      "price":0,
+      "discount": 0,
+      "quantity": 0
+    },
+    {
+      "id": "5",
+      "name": "Bolso MALLE <br> [Plata]",
+      "image": "assets/images/Blusa 1.png",
+      "description":"",
+      "type": "",
+      "color": "",
+      "price":170000,
+      "discount": 0,
+      "quantity": 0
+    },
+    {
+      "id": "6",
+      "name": "Bolso MALLE Vertical<br> [Negro]",
+      "image": "assets/images/Bolso Malle Vertical Negro 3.png",
+      "description":"",
+      "type": "",
+      "color": "",
+      "price":170000,
+      "discount": 0,
+      "quantity": 0
+    },
+    {
+      "id": "7",
+      "name": "Bolso MALLE Vertical<br> [Plata]",
+      "image": "assets/images/Bolso Malle Vertical Plata 1",
+      "description":"",
+      "type": "",
+      "color": "",
+      "price":165000,
+      "discount": 0,
+      "quantity": 0
+    },
+    {
+      "id": "8",
+      "name": "Collar ROD<br> [Plata]",
+      "image": "assets/images/Collar 2.png",
+      "description":"",
+      "type": "",
+      "color": "",
+      "price":70000,
+      "discount": 0,
+      "quantity": 0
+    }
+ 
+    
+  ]
+

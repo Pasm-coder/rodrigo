@@ -1,0 +1,49 @@
+[
+    {
+      "id": "1",
+      "name": "Pantalón Biker <br>[Negro]",
+      "image": "assets/images/Pantalon 3.png",
+      "description":"",
+      "type": "",
+      "color": "",
+      "price":170000,
+      "discount": 0,
+      "quantity": 0
+    },
+    {
+      "id": "2",
+      "name": "Camisa 3/4 DIONLE<br> [Blanco]",
+      "image": "assets/images/Camisa Hombre 1.png",
+      "description":"",
+      "type": "",
+      "color": "",
+      "price":0,
+      "discount": 0,
+      "quantity": 0
+    },
+    {
+      "id": "3",
+      "name": "Camisa 3/4 DIONLE <br> [Negro]",
+      "image": "assets/images/Camisa Hombre 3.1.png",
+      "description":"",
+      "type": "",
+      "color": "",
+      "price":50000,
+      "discount": 0,
+      "quantity": 0
+    },
+    {
+      "id": "4",
+      "name": "Conjunto Cazador <br> [Plata]",
+      "image": "assets/images/Cazador 3.png",
+      "description":"",
+      "type": "",
+      "color": "",
+      "price":250000,
+      "discount": 0,
+      "quantity": 0
+    }
+ 
+    
+  ]
+

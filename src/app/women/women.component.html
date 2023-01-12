@@ -1,56 +1,52 @@
 <app-header></app-header>
 
-<section class="cards">
-    <div class="div_grande">
-        <div class="boxall">
-            <img src="../../assets/Croc top 3.png" class="img" >
-            <p class="tarjetas_titulo">Crop Top escotado <br>[Bicolor]</p>
-            <p class="price">$ 160.000</p>
-        </div>
+       <!-- Item-->
+       <div class="cards">
 
-        <div class="boxall">
-            <img src="../../assets/Croc top Negro 1.png" class="img" >
-            <p class="tarjetas_titulo">Crop Top escotado <br> [Negro]</p>
-            <p class="price">$ 175.000</p>
-        </div>
+        <div *ngFor="let product of productList" class="div_grande">
+            <div class="boxall">
+                <div class="">
+                    <img [src]="product.image" class="img2" >
+                    <p class="tarjetas_titulo">
+                      {{product.name}}
+                    </p>
+                    <p class="price">{{product.price}}<button (click)="addToCart(product)" type="button" class="button">Add to Cart</button></p>
+                </div><!--fin box all-->
+            </div> <!-- fin div grande-->
+        </div><!--fin ngFor-->
+     
+     </div><!--Fin cards-->
+     
+     
+           
+     
+               <div class="col-xl-4 col-md-4 pt-3 pt-md-0 mt-5">
+            <h2 class="h6 px-4 py-3 bg-light text-center">Total Price</h2>
+           <div class="h3 font-weight-semibold text-center py-3">{{total | currency}}</div>
+           <hr>
+           <h3 class="h6 pt-4 font-weight-semibold">
+             Product Preview
+           </h3>
+           <div class="product-info" *ngFor="let product of products; let i  = index">
+             <div class="col-md-3">
+               <div class="">
+                 <img [src]="product?.image" alt="Product" alt="" class="img-circle">
+               </div>
+             </div>
+             <h5>{{product?.name}} <span>${{product?.price}}</span></h5>
+             <span class="text-muted">Product Description</span>
+             <p>
+               {{product?.description}}
+             </p>
+             <div>
 
-        <div class="boxall">
-            <img src="../../assets/Croc top Negro 3.png" class="img" >
-            <p class="tarjetas_titulo">Falda Lápiz <br> [Negro]</p>
-            <p class="price"></p>
-        </div>
+               <span>${{ product.quantity * product?.price | number : '1.2-2'}}</span>
+             </div>
+              <button (click)="removeFromCart(product)" type="button" class="btn btn-danger mt-3">Remove from cart</button>
+             <hr />
+             <a href="https://api.whatsapp.com/send?phone=573175075432&text=Hola, me gustaria comprar: {{product?.name}}, con un tota de:{{total | currency}} " class="btn_whatsapp" target="_blank"><i><img class="img_whatsapp" src="assets/imagenes/whatsapp.png" alt="whatsapp_icono"></i></a>
+           </div>
+         </div>
 
-        <div class="boxall">
-            <img src="../../assets/Blusa 3.png" class="img" >
-            <p class="tarjetas_titulo">Blusa Tipo DIONLE <br> [Negro]</p>
-            <p class="price">$ 150.000</p>
-        </div>
-
-        <div class="boxall">
-            <img src="../../assets/Blusa 1.png" class="img" >
-            <p class="tarjetas_titulo">Blusa Tipo DIONLE <br> [Blanco]</p>
-            <p class="price">$ 175.000</p>
-        </div>
-
-        <div class="boxall">
-            <img src="../../assets/Blusa 2.png" class="img" >
-            <p class="tarjetas_titulo">Falda Plisada <br> [Negro]</p>
-            <p class="price">$ 160.000</p>
-        </div>
-
-        <div class="boxall">
-            <img src="../../assets/Vestido 2.png" class="img" >
-            <p class="tarjetas_titulo">Vestido Medio Beso <br> [Negro]</p>
-            <p class="price">$ 350.000</p>
-        </div>
-
-        <div class="boxall2">
-            <p class="tarjetas_titulo"> <br> </p>
-            <p class="price"></p>
-        </div>
-
-    </div>
-    
-</section>
 
 <app-footer></app-footer>

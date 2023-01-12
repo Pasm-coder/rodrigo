@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { ManComponent } from './man/man.component';
 import { ShoesComponent } from './shoes/shoes.component';
 import { WomenComponent } from './women/women.component';
+import { ShoppingComponent } from './shopping/shopping.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -12,6 +13,9 @@ const routes: Routes = [
   { path: 'hombre', component: ManComponent},
   { path: 'zapatos', component: ShoesComponent},
   { path: 'accesorios', component: AccessoriesComponent},
+  { path: 'shopping', component: ShoppingComponent},
+  { path: '', redirectTo: '/women', pathMatch: 'full' },
+
 ];
 
 @NgModule({
