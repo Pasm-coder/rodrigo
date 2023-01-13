@@ -1,6 +1,33 @@
 <app-header></app-header>
 
-       
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Secular+One&display=swap" rel="stylesheet">
+
+<style> @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Secular+One&display=swap'); </style>
+
+<div class="shopping">
+    <h2 class="total">Total a pagar</h2>
+   <div class="total_price">{{total | currency}}</div>
+   <hr>
+   <h3 class="total">
+     Productos seleccionados
+   </h3>
+   <div class="product-info" *ngFor="let product of products; let i  = index">
+     <div class="col-md-3">
+       <div class="">
+         <img [src]="product?.image" alt="Product" alt="" class="img-circle">
+       </div>
+     </div>
+     <h5>{{product?.name}} <span>${{product?.price}}</span></h5>
+     <span class="text-muted"></span>
+     <div>
+
+       <span>${{ product.quantity * product?.price | number : '1.2-2'}}</span>
+     </div>
+      <button (click)="removeFromCart(product)" type="button" class=" button">Quitar del carro</button>
+     <hr />
+     <a href="https://api.whatsapp.com/send?phone=573175075432&text=Hola, me gustaria comprar: {{product?.name}}, con un tota de:{{total | currency}} " class="whatsapp" target="_blank">Ir a pagar<i><img class="img_whatsapp" src="assets/imagenes/whatsapp.png" alt="whatsapp_icono"></i></a>
+   </div>
+ </div>
 
 
 

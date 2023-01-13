@@ -16,37 +16,6 @@
         </div><!--fin ngFor-->
      
      </div><!--Fin cards-->
-     
-     
-           
-     
-               <div class="col-xl-4 col-md-4 pt-3 pt-md-0 mt-5">
-            <h2 class="h6 px-4 py-3 bg-light text-center">Total Price</h2>
-           <div class="h3 font-weight-semibold text-center py-3">{{total | currency}}</div>
-           <hr>
-           <h3 class="h6 pt-4 font-weight-semibold">
-             Product Preview
-           </h3>
-           <div class="product-info" *ngFor="let product of products; let i  = index">
-             <div class="col-md-3">
-               <div class="">
-                 <img [src]="product?.image" alt="Product" alt="" class="img-circle">
-               </div>
-             </div>
-             <h5>{{product?.name}} <span>${{product?.price}}</span></h5>
-             <span class="text-muted">Product Description</span>
-             <p>
-               {{product?.description}}
-             </p>
-             <div>
-
-               <span>${{ product.quantity * product?.price | number : '1.2-2'}}</span>
-             </div>
-              <button (click)="removeFromCart(product)" type="button" class="btn btn-danger mt-3">Remove from cart</button>
-             <hr />
-             <a href="https://api.whatsapp.com/send?phone=573175075432&text=Hola, me gustaria comprar: {{product?.name}}, con un tota de:{{total | currency}} " class="btn_whatsapp" target="_blank"><i><img class="img_whatsapp" src="assets/imagenes/whatsapp.png" alt="whatsapp_icono"></i></a>
-           </div>
-         </div>
 
 
 <app-footer></app-footer>
