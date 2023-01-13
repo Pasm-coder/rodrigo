@@ -1,7 +1,7 @@
 [
     {
       "id": "1",
-      "name": "Pantalón Biker <br>[Negro]",
+      "name": "Pantalón Biker [Negro]",
       "image": "assets/images/Pantalon 3.png",
       "description":"",
       "type": "",
@@ -12,7 +12,7 @@
     },
     {
       "id": "2",
-      "name": "Camisa 3/4 DIONLE<br> [Blanco]",
+      "name": "Camisa 3/4 DIONLE [Blanco]",
       "image": "assets/images/Camisa Hombre 1.png",
       "description":"",
       "type": "",
@@ -23,7 +23,7 @@
     },
     {
       "id": "3",
-      "name": "Camisa 3/4 DIONLE <br> [Negro]",
+      "name": "Camisa 3/4 DIONLE  [Negro]",
       "image": "assets/images/Camisa Hombre 3.1.png",
       "description":"",
       "type": "",
@@ -34,7 +34,7 @@
     },
     {
       "id": "4",
-      "name": "Conjunto Cazador <br> [Plata]",
+      "name": "Conjunto Cazador  [Plata]",
       "image": "assets/images/Cazador 3.png",
       "description":"",
       "type": "",

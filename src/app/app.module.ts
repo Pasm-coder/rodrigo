@@ -12,6 +12,8 @@ import { ShoesComponent } from './shoes/shoes.component';
 import { AccessoriesComponent } from './accessories/accessories.component';
 import { ShoppingComponent } from './shopping/shopping.component';
 import { FormsModule } from '@angular/forms';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 
 
 @NgModule({
@@ -30,7 +32,8 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

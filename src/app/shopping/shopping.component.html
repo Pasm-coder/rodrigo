@@ -19,7 +19,9 @@
      </div>
      <h5>{{product?.name}} <span>${{product?.price}}</span></h5>
      <span class="text-muted"></span>
-     <div>
+     <div class="multi">
+      <input [(ngModel)]="product.quantity" [ngModelOptions]="{standalone: true}" min="1" type="number" value="1"
+       name="" class="cantidad" />
 
        <span>${{ product.quantity * product?.price | number : '1.2-2'}}</span>
      </div>
@@ -28,14 +30,6 @@
      <a href="https://api.whatsapp.com/send?phone=573175075432&text=Hola, me gustaria comprar: {{product?.name}}, con un tota de:{{total | currency}} " class="whatsapp" target="_blank">Ir a pagar<i><img class="img_whatsapp" src="assets/imagenes/whatsapp.png" alt="whatsapp_icono"></i></a>
    </div>
  </div>
-
-
-
-
-
-
-
-
 
 
 <app-footer></app-footer>

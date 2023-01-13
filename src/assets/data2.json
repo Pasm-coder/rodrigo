@@ -1,7 +1,7 @@
 [
     {
       "id": "1",
-      "name": "Tenis ROD <br>[Negro]",
+      "name": "Tenis ROD [Negro]",
       "image": "assets/images/Tenis negro 2.png",
       "description":"",
       "type": "",
@@ -12,7 +12,7 @@
     },
     {
       "id": "2",
-      "name": "Tenis ROD <br> [Plata]",
+      "name": "Tenis ROD  [Plata]",
       "image": "assets/images/",
       "description":"",
       "type": "",
@@ -23,7 +23,7 @@
     },
     {
       "id": "3",
-      "name": "Stilettos Clásicos <br> [Negro]",
+      "name": "Stilettos Clásicos  [Negro]",
       "image": "assets/images/Stilettos 2.png",
       "description":"",
       "type": "",
@@ -34,7 +34,7 @@
     },
     {
       "id": "4",
-      "name": "Stilettos Clásicos <br> [Plata]",
+      "name": "Stilettos Clásicos  [Plata]",
       "image": "assets/images/Stilettos Plata 2.png",
       "description":"",
       "type": "",

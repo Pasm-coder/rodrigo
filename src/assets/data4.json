@@ -1,7 +1,7 @@
 [
     {
       "id": "1",
-      "name": "Correa de Hojales <br>[Negro]",
+      "name": "Correa de Hojales [Negro]",
       "image": "assets/images/Correa 1.png",
       "description":"",
       "type": "",
@@ -12,7 +12,7 @@
     },
     {
       "id": "2",
-      "name": "Correa de Hojales <br> [Plata]",
+      "name": "Correa de Hojales  [Plata]",
       "image": "assets/images/Correa 3.png",
       "description":"",
       "type": "",
@@ -23,7 +23,7 @@
     },
     {
       "id": "3",
-      "name": "Cinturón de Lujo <br> [Plata]",
+      "name": "Cinturón de Lujo  [Plata]",
       "image": "assets/images/Correa Lujo 3.png",
       "description":"",
       "type": "",
@@ -34,7 +34,7 @@
     },
     {
       "id": "4",
-      "name": "Bolso MALLE <br> [Negro]",
+      "name": "Bolso MALLE  [Negro]",
       "image": "assets/images/Bolso malle plata 2.png",
       "description":"",
       "type": "",
@@ -45,7 +45,7 @@
     },
     {
       "id": "5",
-      "name": "Bolso MALLE <br> [Plata]",
+      "name": "Bolso MALLE  [Plata]",
       "image": "assets/images/Blusa 1.png",
       "description":"",
       "type": "",
@@ -56,7 +56,7 @@
     },
     {
       "id": "6",
-      "name": "Bolso MALLE Vertical<br> [Negro]",
+      "name": "Bolso MALLE Vertical [Negro]",
       "image": "assets/images/Bolso Malle Vertical Negro 3.png",
       "description":"",
       "type": "",
@@ -67,7 +67,7 @@
     },
     {
       "id": "7",
-      "name": "Bolso MALLE Vertical<br> [Plata]",
+      "name": "Bolso MALLE Vertical [Plata]",
       "image": "assets/images/Bolso Malle Vertical Plata 1",
       "description":"",
       "type": "",
@@ -78,7 +78,7 @@
     },
     {
       "id": "8",
-      "name": "Collar ROD<br> [Plata]",
+      "name": "Collar ROD [Plata]",
       "image": "assets/images/Collar 2.png",
       "description":"",
       "type": "",
