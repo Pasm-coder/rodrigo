@@ -1,0 +1,49 @@
+[
+    {
+      "id": "1",
+      "name": "Tenis ROD [Negro]",
+      "image": "assets/images/Tenis negro 2.png",
+      "description":"",
+      "type": "",
+      "color": "",
+      "price":160000,
+      "discount": 0,
+      "quantity": 0
+    },
+    {
+      "id": "2",
+      "name": "Tenis ROD  [Plata]",
+      "image": "assets/images/",
+      "description":"",
+      "type": "",
+      "color": "",
+      "price":160000,
+      "discount": 0,
+      "quantity": 0
+    },
+    {
+      "id": "3",
+      "name": "Stilettos Clásicos  [Negro]",
+      "image": "assets/images/Stilettos 2.png",
+      "description":"",
+      "type": "",
+      "color": "",
+      "price":175000,
+      "discount": 0,
+      "quantity": 0
+    },
+    {
+      "id": "4",
+      "name": "Stilettos Clásicos  [Plata]",
+      "image": "assets/images/Stilettos Plata 2.png",
+      "description":"",
+      "type": "",
+      "color": "",
+      "price":165000,
+      "discount": 0,
+      "quantity": 0
+    }
+
+    
+  ]
+
