@@ -17,7 +17,7 @@
       "description":"",
       "type": "",
       "color": "",
-      "price":175000,
+      "price":160000,
       "discount": 0,
       "quantity": 0
     },
@@ -28,7 +28,7 @@
       "description":"",
       "type": "",
       "color": "",
-      "price":50000,
+      "price":150000,
       "discount": 0,
       "quantity": 0
     },
@@ -50,7 +50,7 @@
       "description":"",
       "type": "",
       "color": "",
-      "price":175000,
+      "price":150000,
       "discount": 0,
       "quantity": 0
     },
@@ -68,26 +68,14 @@
     {
       "id": "7",
       "name": "Vestido Medio Beso  [Negro]",
-      "image": "assets/images/Blusa 3.png",
+      "image": "assets/images/Vestido 2.png",
       "description":"",
       "type": "",
       "color": "",
       "price":350000,
       "discount": 0,
       "quantity": 0
-    },
-    {
-      "id": "8",
-      "name": "Blusa Tipo DIONLE  [Negro]",
-      "image": "assets/images/Vestido 2.png",
-      "description":"",
-      "type": "",
-      "color": "",
-      "price":150000,
-      "discount": 0,
-      "quantity": 0
     }
- 
     
   ]
 

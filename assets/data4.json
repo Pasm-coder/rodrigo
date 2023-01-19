@@ -6,7 +6,7 @@
       "description":"",
       "type": "",
       "color": "",
-      "price":0,
+      "price":80000,
       "discount": 0,
       "quantity": 0
     },
@@ -17,7 +17,7 @@
       "description":"",
       "type": "",
       "color": "",
-      "price":160000,
+      "price":80000,
       "discount": 0,
       "quantity": 0
     },
@@ -28,7 +28,7 @@
       "description":"",
       "type": "",
       "color": "",
-      "price":50000,
+      "price":115000,
       "discount": 0,
       "quantity": 0
     },
@@ -39,7 +39,7 @@
       "description":"",
       "type": "",
       "color": "",
-      "price":0,
+      "price":150000,
       "discount": 0,
       "quantity": 0
     },
@@ -50,7 +50,7 @@
       "description":"",
       "type": "",
       "color": "",
-      "price":170000,
+      "price":150000,
       "discount": 0,
       "quantity": 0
     },
@@ -61,14 +61,14 @@
       "description":"",
       "type": "",
       "color": "",
-      "price":170000,
+      "price":150000,
       "discount": 0,
       "quantity": 0
     },
     {
       "id": "7",
       "name": "Bolso MALLE Vertical [Plata]",
-      "image": "assets/images/Bolso Malle Vertical Plata 1",
+      "image": "assets/images/Bolso Malle Vertical Plata 1.png",
       "description":"",
       "type": "",
       "color": "",
