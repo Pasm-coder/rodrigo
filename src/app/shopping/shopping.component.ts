@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
-import { ProductService } from '../service/product.service';
+import { Data, Router } from '@angular/router';
+import { ProductService  } from '../service/product.service';
+import { faCommentsDollar } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-shopping',
@@ -8,16 +10,27 @@ import { ProductService } from '../service/product.service';
   styleUrls: ['./shopping.component.sass']
 })
 export class ShoppingComponent implements OnInit {
+  faCommentsDollar = faCommentsDollar
+
+
 
   productList!: any[];
   products: any[] = [];
   subTotal!: any;
+ 
+
+
+
+
   constructor(
     private product_service: ProductService,
     private router: Router
-  ) {}
+  ) {
+  }
   
+
   ngOnInit() {
+
     this.product_service.getAllProducts().subscribe({
       next: (res: any) => {
         console.log(res);
@@ -29,6 +42,7 @@ export class ShoppingComponent implements OnInit {
       complete: () => {
         console.log('Request Completed');
       },
+      
     });
   
     this.product_service.loadCart();
@@ -73,10 +87,10 @@ export class ShoppingComponent implements OnInit {
     ).price;
   }
   
-  checkout() {
-    localStorage.setItem('cart_total', JSON.stringify(this.total));
-    this.router.navigate(['/payment']);
-  }
+
+
+
+
   
 
 }
